@@ -4,27 +4,53 @@ body {
 }
 
 header {
-	background-color: orange;
-	height: 100px;
+	background-color: white;
 }
 
-h1 {
-		text-align: center ;
-		color:red;
-}
-
-.img1 {
-	width: 25px;
-	position:relative;
-	left: 300px;
-}
-
-.kak {
-	font-size: 40px;
-	top:0px;
-	text-align: center ;
+.intro {
+	top: 0px;
+	left: 30px;
 }
 
 main {
 	height: 1000px;
+}
+
+.nav {
+	background-image: linear-gradient(to right, #0062a7, #39b8dc);
+	height: 100px;
+	font-size: 50px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.nav a {
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.katalog:hover {
+	transition: 2s;
+	font-size: 80px;
+	color: #d6d6d6;
+}
+
+.kon:hover {
+	transition: 2s;
+	font-size: 80px;
+	color: #d6d6d6;
+}
+
+.cem:hover {
+	transition: 2s;
+	font-size: 80px;
+	color: #d6d6d6;
+}
+
+.deh:hover {
+	transition: 2s;
+	font-size: 80px;
+	color: #d6d6d6;
 }
