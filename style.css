@@ -29,29 +29,68 @@ main {
 .nav a {
 	color: #ffffff;
 	text-decoration: none;
-	
 }
 
 .katalog:hover {
 	transition: 2s;
 	font-size: 80px;
-	color: #d6d6d6;
+	color: #adadad;
 }
 
-.kon:hover {
+.kontacts:hover {
 	transition: 2s;
 	font-size: 80px;
-	color: #d6d6d6;
+	color: #adadad;
 }
 
 .cem:hover {
 	transition: 2s;
 	font-size: 80px;
-	color: #d6d6d6;
+	color: #adadad;
 }
 
-.deh:hover {
+.nav .katalog {
+	color: #adadad;
+}
+
+.faq:hover {
 	transition: 2s;
 	font-size: 80px;
-	color: #d6d6d6;
+	color: #adadad;
 }
+
+.post {
+	margin: 20px 30% 20px 30%;
+	background-color: #FF9200;
+	width: 40%;
+	height: 600px;
+	border-radius: 10px;
+}
+
+.antena {
+	width: 90%;
+	height: 70%;
+	margin: 5% 5% 0 5%
+}
+
+.camera {
+	width: 90%;
+	height: 70%;
+	margin: 5% 5% 0 5%
+}
+
+.lampa {
+	width: 90%;
+	height: 70%;
+	margin: 5% 5% 0 5%
+}
+
+.dan {
+	text-align: center;
+}
+
+hr {
+	width: 150px;
+	color: #FFBF00;
+}
+
