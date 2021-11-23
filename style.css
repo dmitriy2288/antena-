@@ -59,38 +59,57 @@ main {
 	color: #adadad;
 }
 
+.katal {
+	display: flex;
+	flex-wrap: wrap;
+}
 .post {
-	margin: 20px 30% 20px 30%;
+	margin: 30px 20px ;
 	background-color: #FF9200;
-	width: 40%;
-	height: 600px;
+	width: 30%;
+	height: 650px;
 	border-radius: 10px;
 }
 
 .antena {
 	width: 90%;
 	height: 70%;
-	margin: 5% 5% 0 5%
+	margin: 5% 5% 5% 5%
 }
 
 .camera {
 	width: 90%;
 	height: 70%;
-	margin: 5% 5% 0 5%
+	margin: 5% 5% 5% 5%
 }
 
 .lampa {
 	width: 90%;
 	height: 70%;
-	margin: 5% 5% 0 5%
+	margin: 5% 5% 5% 5%
 }
 
 .dan {
 	text-align: center;
 }
 
-hr {
-	width: 150px;
-	color: #FFBF00;
+.pod {
+	background-color: blue;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
 }
 
+.social {
+	background-color: #0000FF;
+	position: fixed;
+	border-radius: 10px;
+	padding: 5px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.soc {
+	display: block;
+	margin: 5px;
+}
