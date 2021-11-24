@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
 body {
 	margin: 0px;
 	padding: 0px;
-	
 }
 
 header {
-	background-color: white;
+	background-color: black;
+	font-family: 'Sigmar One', cursive;
+	color: white;
+	height: 1000px;
+}
+
+header h1 {
+	text-align: center;
+	background: url(1.jpeg);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-size: 350px;
+	padding-top: 250px;
+	animation: animate 10s infinite linear;
+}
+
+@keyframes animate{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100% 100%;
+	}
 }
 
 .intro {
 	top: 0px;
 	left: 30px;
+	position: absolute;
 }
 
 main {
